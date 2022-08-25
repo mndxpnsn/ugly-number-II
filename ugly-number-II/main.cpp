@@ -62,9 +62,9 @@ int ugly_number_api(int n) {
     // Get nth element in ugly number set
     set<int>::iterator it = uglies_set.begin();
     advance(it, n - 1);
-    int x = *it;
+    int nth_ugly_number = *it;
     
-    return x;
+    return nth_ugly_number;
 }
 
 int main(int argc, const char * argv[]) {
